@@ -1,5 +1,5 @@
 # 'brew tap'
-tap "homebrew/bundle"
+#tap "homebrew/bundle"
 
 # Installing Docker
 cask "docker"
