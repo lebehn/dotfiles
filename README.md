@@ -7,7 +7,7 @@ The following git repositoriy contains dotfiles for setting up my macbook with t
 **One line install**
 
 ```
-sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply hannesharnisch
+sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply lebehn
 ```
 
 **Other options**
