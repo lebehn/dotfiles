@@ -1,4 +1,4 @@
-# Hannes' Dotfiles
+# Leon's Dotfiles
 
 The following git repositoriy contains dotfiles for setting up my macbook with the [chezmoi](https://www.chezmoi.io/) dotfile manager. 
 
