@@ -7,6 +7,7 @@ cask "docker"
 brew "mas" # Appstore CLI
 
 # Important for playbooks
+brew "chezmoi"
 brew "dockutil"
 
 # Installing core commands
