@@ -5,16 +5,16 @@
   community.general.osx_defaults:
     domain: com.apple.AppleMultitouchTrackpad
     key: Clicking
-    type: bool
-    value: "{{ tapToClick }}"
+    type: int
+    value: "{{ '1' if tapToClick else '0' }}"
     state: present
 
 - name: Trackpad - enable tap to click for bluetooth
   community.general.osx_defaults:
     domain: com.apple.driver.AppleBluetoothMultitouch.trackpad
     key: Clicking
-    type: bool
-    value: "{{ tapToClick }}"
+    type: int
+    value: "{{ '1' if tapToClick else '0' }}"
     state: present
 
 - name: Trackpad - host tapbehavior
@@ -75,12 +75,4 @@
     key: AppleMetricUnits
     type: bool
     value: "{{ location.useMetric }}"
-    state: present
-
-- name: Show language menu in the top right corner of the boot screen
-  community.general.osx_defaults:
-    domain: /Library/Preferences/com.apple.loginwindow
-    key: showInputMenu
-    type: bool
-    value: true
     state: present
