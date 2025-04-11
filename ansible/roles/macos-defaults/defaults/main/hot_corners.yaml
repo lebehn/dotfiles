@@ -18,3 +18,15 @@
 # 3: Option
 # 4: Command
 hotCorners:
+  # Top left screen corner → No Action
+  - corner: tl
+    action: 0
+  # Top right screen corner → No Action
+  - corner: tr
+    action: 0
+  # Top right screen corner → No Action
+  - corner: bl
+    action: 0
+  # Bottom left screen corner → No Action
+  - corner: br
+    action: 0
