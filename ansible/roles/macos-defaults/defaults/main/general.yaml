@@ -1,4 +1,4 @@
-tapToClick: true
+tapToClick: false
 ui:
   sidebarIconSize: 2
   resizeTime: 0.001
