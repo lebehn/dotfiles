@@ -19,4 +19,4 @@
   
 - name: Add Homebrew path
   shell: echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile && eval "$(/opt/homebrew/bin/brew shellenv)"
-  when: not homebrew_path.stat.exists | default(false)
+  #when: not homebrew_path.stat.exists | default(false)
