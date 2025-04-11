@@ -8,6 +8,8 @@ python3 -m pip install ansible --quiet
 
 DOTFILES_DIR="{{ .chezmoi.sourceDir }}"
 
+export PATH="$HOME/Library/Python/3.9/bin:$PATH"
+
 # Execute ansible setup playbook
 cd $DOTFILES_DIR/ansible
 ansible-galaxy install -r requirements.yaml
