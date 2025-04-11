@@ -19,6 +19,6 @@ location:
   languages:
     - en
     - de
-  locale: "de_DE"
+  locale: "en_DE"
   currency: "EUR"
   useMetric: true
