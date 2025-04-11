@@ -1,7 +1,7 @@
 arc:
   - key: tidyTabsEnabled
   - key: renamePinnedTabsEnabled
-  - key: renameDownloadsEnabled
+  #- key: renameDownloadsEnabled
   - key: instantLinksEnabled
   - key: hoverCardsEnabled
   - key: gptSiteSearchEnabled
@@ -11,4 +11,4 @@ arc:
     value: 0
   - key: currentAppIconName
     type: string
-    value: "neon"
+    value: "original"

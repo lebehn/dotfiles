@@ -10,5 +10,5 @@ finder:
     layout: grid
     gridSpacing: 80
     iconSize: 60
-    showDriveIcons: true
+    showDriveIcons: false
     showItemInfo: true

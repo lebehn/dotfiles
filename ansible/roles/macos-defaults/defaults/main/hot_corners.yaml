@@ -18,12 +18,3 @@
 # 3: Option
 # 4: Command
 hotCorners:
-  # Top right screen corner → Mission Control
-  - corner: tr
-    action: 2
-  # Top right screen corner → Notification Center
-  - corner: br
-    action: 12
-  # Bottom left screen corner → Lock Screen
-  - corner: bl
-    action: 13

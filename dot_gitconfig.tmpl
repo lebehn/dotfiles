@@ -126,18 +126,6 @@
 
 [user]
   name = {{ .user.name }}
-  email = {{ onepasswordRead "op://Personal/Github-Key/E-Mail" }}
-  signingkey = {{ onepasswordRead "op://Personal/Github-Key/public key" }}
-
-[gpg]
-  format = ssh
-
-[gpg "ssh"]
-  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
-
-[commit]
-  gpgsign = true
-
 
 [diff]
 

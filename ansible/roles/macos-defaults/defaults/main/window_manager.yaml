@@ -1,5 +1,5 @@
 windowManager:
-  enableDragTiling: false
+  enableDragTiling: true
   hideDesktopWidgets: false
   setTiledWindowMargins: true
   stageManager:

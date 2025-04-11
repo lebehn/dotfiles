@@ -1,5 +1,5 @@
 dock:
-  autoHide: true
+  autoHide: false
   tileSize: 45
   magnifiedTileSize: 68
   minimizeWindow:
@@ -12,7 +12,7 @@ dock:
   showRecent: false
   missionControl:
     animationTime: 0.1
-    groupByApp: true
+    groupByApp: false
   spaces:
     autoRearrange: false
   apps:
@@ -20,13 +20,8 @@ dock:
     - "file:///System/Applications/Calendar.app"
     - "file:///System/Applications/Reminders.app"
     - "file:///System/Applications/Notes.app/"
-    - "file:///Applications/Goodnotes.app"
-    - "file:///System/Applications/Utilities/Terminal.app"
+    - "file:///System/Applications/Mail.app"
   folders:
-    - name: "file:///{{ HOME }}/Documents/"
-      view: "list" # grid|fan|list|auto
-      display: "folder" # folder|stack
-      sort: "datemodified" # name|dateadded|datemodified|datecreated|kind
     - name: "file:///{{ HOME }}/Downloads/"
       view: "fan" # grid|fan|list|auto
       display: "stack" # folder|stack

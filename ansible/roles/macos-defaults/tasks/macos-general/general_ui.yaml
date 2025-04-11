@@ -6,22 +6,6 @@
     value: "{{ ui.sidebarIconSize }}"
     state: present
 
-- name: Set Accent Color to orange
-  community.general.osx_defaults:
-    domain: NSGlobalDomain
-    key: AppleAccentColor
-    type: int
-    value: "{{ ui.accentColor }}"
-    state: present
-
-- name: Set Highlight Color also to orange
-  community.general.osx_defaults:
-    domain: NSGlobalDomain
-    key: AppleHighlightColor
-    type: string
-    value: "{{ ui.highlightColor }}"
-    state: present
-
 - name: Disable the over-the-top focus ring animation
   community.general.osx_defaults:
     domain: NSGlobalDomain
@@ -37,7 +21,6 @@
     type: float
     value: "{{ ui.resizeTime }}"
     state: present
-
 
 - name: Automatically quit printer app once the print jobs complete
   community.general.osx_defaults:

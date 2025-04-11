@@ -1,7 +1,5 @@
 tapToClick: true
 ui:
-  accentColor: 1 # Orange
-  highlightColor: "1.000000 0.874510 0.701961 Orange"
   sidebarIconSize: 2
   resizeTime: 0.001
 screenshots:
@@ -19,8 +17,8 @@ energy:
     passwordDelay: 0
 location:
   languages:
-    - de
     - en
+    - de
   locale: "de_DE"
   currency: "EUR"
   useMetric: true

@@ -4,83 +4,45 @@ tap "homebrew/bundle"
 # Installing Docker
 cask "docker"
 
-brew "whalebrew" # Whalebrew
 brew "mas" # Appstore CLI
 
 # Important for playbooks
-brew "chezmoi" # Chezmoi for syncing dotfiles
 brew "dockutil"
 
 # Installing core commands
 brew "git"
-brew "grep"
-brew "gnutls"
-brew "gnupg"
-brew "git-lfs"
-brew "screen"
-brew "tree"
-brew "findutils"
-brew "coreutils"
-brew "moreutils"
-brew "foremost"
-brew "netcat"
-brew "wget"
-brew "curl"
-whalebrew "whalebrew/nmap"
 
+# General
 cask "arc" # Arc Browser
-cask "grandperspective" # GrandPerspective
-cask "1password" # 1Password
-cask "1password-cli"
+mas "WhatsApp", id: 310633997       # WhatsApp
+mas "Element X", id: 1631335820     # Element X
+cask "grandperspective"             # GrandPerspective
+cask "betterdisplay"                # BetterDisplay
 
-# Productivity
-cask "notion"
-cask "webex"
-cask "lm-studio"
-cask "zotero"
+# Finances
+mas "Budget Flow", id: 1640091876   # Budget Flow
+cask "ledger-live"                  # Ledger Live
 
+# University
+cask "zotero"                       # Zotero
+mas "ChatGPT", id: 6448311069       # ChatGPT
 
-# Microsoft Office
-cask "microsoft-auto-update"
-cask "microsoft-word"
-cask "microsoft-excel"
-cask "microsoft-powerpoint"
-mas "Goodnotes", id: 1444383602
-mas "Keynote", id: 409183694
+# Office
+mas "Keynote", id: 409183694        # KeyNote
 
-cask "postman" # Postman
-cask "intellij-idea"
-cask "android-studio"
-brew "kotlin"
-brew "kdoctor"
-brew "cocoapods"
-brew "cmake"
-brew "nvm"
-brew "openjdk@17"
-brew "go"
-brew "python@3.11"
-mas "Xcode", id: 497799835
-brew "swiftlint"
+# Development
+cask "jetbrains-toolbox"            # Jetbrains Toolbox
+brew "kotlin"                       # kotlin
+brew "kdoctor"                      # kdoctor
+mas "Xcode", id: 497799835          # Xcode
 
 # Zed Editor
-cask "zed"
+cask "zed"                          # Zed
 
 # Visual Studio Code
-cask "visual-studio-code"
-vscode "dbaeumer.vscode-eslint"
+cask "visual-studio-code"           # Visual Studio Code
 vscode "eamodio.gitlens"
-vscode "esbenp.prettier-vscode"
 vscode "GitHub.copilot"
 vscode "GitHub.copilot-chat"
-vscode "golang.go"
 vscode "ms-azuretools.vscode-docker"
-vscode "ms-python.debugpy"
-vscode "ms-python.isort"
-vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
-vscode "ms-toolsai.jupyter"
-vscode "ms-toolsai.jupyter-keymap"
-vscode "ms-toolsai.jupyter-renderers"
-vscode "ms-toolsai.vscode-jupyter-cell-tags"
-vscode "ms-toolsai.vscode-jupyter-slideshow"
 vscode "ms-vscode-remote.remote-containers"
